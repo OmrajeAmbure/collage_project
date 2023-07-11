@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+          margin: 5px;
+        }
+        header{
+          background-color: darkslateblue;
+          color: white;
+          padding-top: 4%;
+          padding-bottom: 4%;
+            
+        }
+        header .col{
+          position: relative;
+          right: 70px;
+        }
+       .container .text-center{
+        padding: 20%;
+       }
+
+        .Nevigiation_bar{
+            background-color: yellow;
+            padding: 15px;
+        }
+        .Nevigiation_bar a{
+            width : 0px 200px 500px 200px;
+            padding: 15px;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .Nevigiation_bar a a:active{
+            background-color: crimson;
+        }
+        .Nevigiation_bar :hover {
+            background-color: orangered;
+        }
+        .Nevigiation_bar .active {
+            background-color: orangered;
+        }
+        #section1{
+          border-style: solid;
+          border-radius: 30px;
+          margin: 40px;
+        }
+        
+        #section2 .Aboutus h1{
+          text-align: center;
+          
+        }
+        #section2{
+          padding: 50px;
+          border-style: solid;
+          border-radius: 30px;
+          margin: 40px;
+        }
+       
+        #section3{
+          border-style: solid ;
+          border-radius: 30px;
+          padding: 30px;
+          margin: 40px;
+          
+        }
+        #section3 h3{
+          text-align: center;
+        }
+        
+        footer{
+          background-color: teal;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+        footer .col a{
+          text-decoration: none;
+          color: aqua;
+        }
+        footer .Quicklink{
+          color: aqua;
+        }
+        footer .contactinfo{
+          color: aqua;
+            text-align: left;
+        }
+        .row justify-content-evenly{
+           border: 2px 4px 2px 4px;
+           border-color: black;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <title>GPV Home Page</title>
+</head>
+<body>
+    <header>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <span><img src="logo.png" alt="logo"></span>
+          </div>
+          <div class="col">
+            <br>
+            <h3>Goverment polytecqunic, Pune </h3>
+            <h5>(An Autonomous Institute of Goverment)</h5>
+            <h3>शासकीय तंत्रनिकेतन, पुणे.</h3>
+            <h5>(महाराष्ट्र शासनाची स्वायत्त संस्था)</h5>
+          </div>
+          <div class="col">
+            <br>
+            <p><span>&#9743</span>+91-020-255592000,020-255592019(Principal) <br>
+              <span>&#128231</span>Principal@gppune.ac.in <br>
+                      Online GPP (MIS)</p><br>
+          
+          <input type="text" placeholder="Search Department" name="Search" >
+          <button type="submit"><i class="fafa-search"></i>&#128269</button>
+          </div>
+        </div>
+      </div>
+</header>
+
+        <div class="Nevigiation_bar">
+            <a href="#home "active>Home</a>
+            <a href="#About Institute">About Institute</a>
+            <a href="#Admission">Admission</a>
+            <a href="#Acadmic">Acadmic</a>
+            <a href="#Departments">Department</a>
+            <a href="#Training & Placement Cell"> Tranining & Placement</a>
+            <a href="#Contact Us">Contact US</a>
+        </div>
+
+        <div class="line">
+
+        </div>
+
+<section id="section1">
+  <div class="container text-center">
+  <div class="row justify-content-evenly">
+    <div class="col-4">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="gpp8.png" class="d-block w-100" alt="E:\web devlopment\collage website\gpp8.png" height="500" width="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Government Polytechnic Pune</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="slider1n2.jpg" class="d-block w-100" alt="..." height="500" width="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Department of Computer Engineering & Information </h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bandal_sir.jpeg" class="d-block w-100" alt="..." height="500" width="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dr. Vitthal Bandal</h5>
+              <p>(Principal, Govt. Polytechnic Pune)</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-4">
+      <div>
+        <span><img src="MOHITE.png" alt="..." height="100" width="80"></span>
+        <div>
+        <h4>Dr. Vinod M. Mohitkar</h4>
+        <p>Director, of Technical Education.</p>
+        </div>
+        <div>
+        <span><img src="pricipal.jpg" alt="..." height="100" width="80"></span>
+
+        <h4>Dr. Vitthal Bandal</h4>
+        <p>Principal, Govt. Polytechnic Pune</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="section2">
+  <div class="Aboutus">
+    <h1>About Us</h1>
+    <hr>
+  
+      <p>Government Polytechnic, Pune, an autonomous institute of Government of Maharashtra is established in the year 1957. Institute is awarded academic autonomy in May 1994. It houses in its 28 acre campus: main building, Computer Engineering, Information Technology and Science department building, Electronics and DDGM department building, staff quarters, workshop building, exam section building, conference halls, hostels, classrooms for various disciplines, library, canteen, mess, post office, cooperative stores, etc.
+
+      <br><br>Over the last four decades, several thousand diploma engineers passed out from various disciplines are contributing their expertise for industries and various Government departments. Institute has won several prestigious awards in academics as well as socio-cultural activities. Overall, contribution of this institute in technical education of country and development of a progressive society is significant.
+      </p>
+    </div>
+</section>
+
+<section id="section3">
+        <div class="Vision">
+        <h3>Vision</h3>
+        <hr>
+        <p>To develop self-reliant, versatile, innovative, quality conscious engineers for betterment of society.</p>
+
+        </div>
+
+        <div class="Mission">
+          <h3> Mission </h3>
+          <hr>
+          <h6>1. Imparting updated curriculum in association with stakeholders.</h6>
+          <h6>2. Providing with the state of art infrastructure & facilities.</h6>
+          <h6>3. Set up strategic alliance with industries.</h6>
+          <h6>4. Enhancing e-governance.</h6>
+          <h6>5. Continuous development of faculty & staff.</h6>
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="Quicklink">
+        <h1>Quick Link</h1>
+        <hr>  
+        <a href="#Sitemap">Sitemap</a><br>
+        <a href="#Disclamir">Disclamir</a><br>
+        <a href="#Admission">Admission</a><br>
+        <a href="#Department">Department</a><br>
+        <a href="#Acadmic">Acadmic</a><br>
+        <a href="#Training & Placement Cell">Training & Placement Cell</a><br>
+        </div>
+      </div>
+      <div class="col">
+                <div class="contactinfo">
+                <h1>Contact Info</h1>
+                <hr>
+                <p><span>&#xf124</span> Goverment Polytecqunic Pune Ganeshkhind, University Road, Shivajinager, Pune-411016,Maharashtra India. </li>
+                <br><span>&#xf095</span>+91-020-255592000,020-25559201 (Principal) <br> 
+                <span>&#9743</span>+91-020-255592000 <br>
+                <span>&#128231</span>principal@gppune.ac.in</p>
+    
+                </div>
+      </div>
+    </div>
+</footer>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
